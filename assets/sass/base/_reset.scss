@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -57,3 +58,98 @@ input{
 a{
 	text-decoration: none;
 }
+=======
+flex_center, .all, .all_left, .all_main_left, .all_main_right, .all_right {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  
+  flex_betwen, .all_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+  
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed,
+  figure, figcaption, footer, header, hgroup,
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline; }
+  
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, section {
+    display: block; }
+  
+  body {
+    line-height: 1; }
+  
+  ol, ul {
+    list-style: none; }
+  
+  blockquote, q {
+    quotes: none; }
+  
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: '';
+    content: none; }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0; }
+  
+  a {
+    text-decoration: none; }
+  
+  body {
+    font-family: "Muli",sans-serif; }
+  
+  .all {
+    color: #252525;
+    border: 1px solid #e5e5e5;
+    height: 55px; }
+    .all_left {
+      padding-right: 20px;
+      gap: 8px; }
+    .all_main {
+      width: 695px;
+      border-left: 1px solid #e5e5e5;
+      padding: 0 15px;
+      height: 100%; }
+      .all_main_left {
+        gap: 5px; }
+        .all_main_left p {
+          font-size: 14px; }
+      .all_main_right {
+        gap: 15px; }
+        .all_main_right i {
+          color: #252525;
+          font-size: 14px; }
+    .all_right {
+      gap: 85px;
+      list-style: none; }
+      .all_right_flag {
+        border-left: 1px solid #e5e5e5; }
+      .all_right a {
+        color: #252525; }
+  
+>>>>>>> c034cd25ab20828afd6748ad1a3ad5e172c9f8ae
