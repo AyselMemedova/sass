@@ -1,25 +1,26 @@
-<<<<<<< HEAD
 flex{
-=======
+    display: flex;
+}
+flex_space_b{
+    display: flex;justify-content: space-between;
+}
 flex_center{
->>>>>>> c034cd25ab20828afd6748ad1a3ad5e172c9f8ae
+
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-<<<<<<< HEAD
-flex_space_b{
-=======
+
 
 flex_betwen{
->>>>>>> c034cd25ab20828afd6748ad1a3ad5e172c9f8ae
+
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-<<<<<<< HEAD
+
 flex_v_end{
     display: flex;
     align-items: center;
@@ -50,5 +51,3 @@ flex_alig_start{
     align-items: start;
     justify-content: center;
 }
-=======
->>>>>>> c034cd25ab20828afd6748ad1a3ad5e172c9f8ae

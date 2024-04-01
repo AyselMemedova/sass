@@ -1,5 +1,4 @@
 @import "../layout/grid";
-<<<<<<< HEAD
 @import "../utils/variables";
 
 
@@ -21,6 +20,7 @@
       font-size: $header_top__left_fz;
     }
   }
+  
 
   &__center {
     @extend flex_space_b;
@@ -223,63 +223,3 @@
     
     }
     
-=======
-@import "../utilities/variables";
-@import "../base/reset";
-@import "../base/typograpy"; 
-
-.all {
-  @extend flex_center;
-  color: $black;
-  border: 1px solid $grey;
-  height: 55px;
-
-  &_left {
-    @extend flex_center;
-    padding-right: 20px;
-    gap: 8px;
-  }
-
-  &_main {
-    //  @extend flex_betwen;
-    @extend flex_betwen;
-    width: 695px;
-    border-left: 1px solid $grey;
-    padding: 0 15px;
-    height: 100%;
-
-    &_left {
-      @extend flex_center;
-      gap:5px;
-      p{
-        font-size: $fz_all;
-      }
-    }
-
-    &_right{
-      @extend flex_center;
-        gap:15px;
-        i{
-            color: $black;
-            font-size: 14px;
-        }
-    }
-  }
-
-  &_right {
-        @extend flex_center;
-        gap:85px;
-        list-style: none;
-
-        &_flag{
-        border-left: 1px solid $grey;
-        }
-       a{
-        color: $black;
-       }
-  }
-}
-
-
-
->>>>>>> c034cd25ab20828afd6748ad1a3ad5e172c9f8ae
