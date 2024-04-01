@@ -12,6 +12,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&amp;display=swap"
         rel="stylesheet">
+        
         <link rel="stylesheet" href="./assets/css/style.css">
     <title>Document</title>
 </head>
@@ -19,23 +20,21 @@
 <body>
 
     <header>
-
         <section class="first">
-            <div class="all">
+            <div class="header__top">
 
-                <div class="all_left">
+                <div class="header__top__left">
                     <i class="fa-solid fa-envelope"></i>
                     <p>hello.colorlib@gmail.com</p>
                 </div>
     
-                <div class="all_main">
-    
-                    <div class="all_main_left">
+                <div class="header__top__main">
+                    <div class="header__top__main_left">
                         <i class="fa-solid fa-phone"></i>
                         <p>+65 11.188.888</p>
                     </div>
     
-                    <div class="all_main_right">
+                    <div class="header__top__main__right">
                         <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                         <a href="#"><i class="fa-brands fa-twitter"></i></a>
                         <a href="#"><i class="fa-brands fa-linkedin"></i></a>
@@ -44,8 +43,8 @@
     
                 </div>
     
-                <div class="all_right">
-                    <div class="all_right_flag">
+                <div class="header__top__right">
+                    <div class="header__top__right__flag">
                         <div class="dropdown">
                             <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
@@ -62,7 +61,7 @@
                         </div>
                     </div>
     
-                    <div class="all_right_login">
+                    <div class="header__top__right__login">
                         <i class="fa-solid fa-user"></i>
                         <a href="#">Login</a>
     
@@ -72,38 +71,438 @@
             </div>
         </section>
 
-        <section class="second">
 
-            <div class="butun">
+        <section class="bottom">
+            <div class="header__bottom">
 
-                <div class="butun_left">
+                <div class="header__bottom__left">
                     <img src="https://preview.colorlib.com/theme/fashi/img/logo.png.webp" alt="">
                 </div>
 
-                <div class="butun_main">
-                    <button> All Categories</button>
-                    
-                    <input type="text" placeholder="What do you need?">
-                    <button><i class="ti-search"></i></button>
-                </div>
+                <div class="header__bottom__center">
+                    <div class="header__bottom__center_fltr_inp">
+                      <div class="header__bottom__center__filtir">
+                        <button>All Categories</button>
+                        <i class="fa-solid fa-chevron-down"></i>
+                      </div>
+                      <div class="header__bottom__center__input">
+                        <input type="text" placeholder="What do you need?" />
+                      </div>
+                    </div>
+                    <div class="header__bottom__center__search">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                  </div>
 
-                <div class="butun_right">
+                <div class="header__bottom__right">
                     <ul>
-                        <li> <i class="icon_heart_alt"></i>  </li>
-                        <li><i class="icon_bag_alt"></i></li>
+                        <li> <i class="fa-regular fa-heart"></i> </li>
+                        <li><i class="fa-solid fa-bag-shopping"></i></li>
                         <li><span>$150.00</span></li>
                     </ul>
 
                 </div>
             </div>
+        </section>
+
+        <section class="header__nav">
+            <div class="header__nav_left">
+                <i class="fa-solid fa-bars"></i>
+                <h2>ALL DEPARTMNETS</p>
+            </div>
+
+            <div class="header__nav__list">
+                <ul class="header__nav__list_ul">
+                    <li><a class="header__nav__list_ul_activ" href="#">HOME</a></li>
+                    <li><a href="#">SHOP</a></li>
+                    <li><a href="#">COLLECTION</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">PAGES</a></li>
+                </ul>
+            </div>
+
+            <div class="header__nav_box__menu">
+                <div class="header__nav_box__menu_btn">
+                    <a href="#">
+                        <p>MENU</p>
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                </div>
+            </div>
 
         </section>
-      
-
     </header>
 
-    <main></main>
-    <footer></footer>
+    <main>
+
+        <section class="carousell">
+            <div class="carousell__card">
+                <div class="carousell__card__tittle">
+                    <p>BAG, KIDS</p>
+                    <h1>Black friday</h1>
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temporincididunt ut labore et dolore</h2>
+                    <a href="#">SHOP NOW</a>
+                </div>
+                <div class="carousell__card__btn">
+                    <div class="carousell__card__btn_next">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                    <div class="carousell__card__btn_prev">
+                        <i class="fa-solid fa-angle-left"></i>
+                    </div>
+                </div>
+                <div class="carousell__card__sale">
+                    <div class="carousell__card__sale_box">
+                        <h2>SALE</h2>
+                        <p>50%</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="people">
+            
+            <div class="people__card">  
+                <p>Men's</p>
+            </div>
+            <div class="people__card">  
+                <p>Women's</p>
+            </div>
+            <div class="people__card">  
+                <p>Kis's</p>
+            </div>
+        </section>
+
+
+        <section class="persCategory">
+            <div class="persCategory_img">
+                <h2>Women's</h2>
+                <p>Discover More</p>
+            </div>
+            <div class="persCategory__clothes">
+                <div class="persCategory__clothes_views">
+                    <ul class="persCategory__clothes_views_ul">
+                        <li class="persCategory__clothes_views_ul_activ_li">Clothings</li>
+                        <li>HandBag</li>
+                        <li>Shoes</li>
+                        <li>Accessories</li>
+                    </ul>
+                </div>
+                <div class="persCategory__clothes_cards">
+                    <div class="persCategory__clothes_card">
+                        <div class="persCategory__clothes_card_img">
+                            <img src="https://preview.colorlib.com/theme/fashi/img/products/women-1.jpg.webp" alt="">
+                        </div>
+                        <div class="persCategory__clothes_card_tittle">
+                            <h2>COAT</h2>
+                            <h3>Pure Pineapple</h3>
+                            <p>$14.00</p>
+                        </div>
+                    </div>
+                    <div class="persCategory__clothes_card">
+                        <div class="persCategory__clothes_card_img">
+                            <img src="https://preview.colorlib.com/theme/fashi/img/products/women-2.jpg" alt="">
+                        </div>
+                        <div class="persCategory__clothes_card_tittle">
+                            <h2>COAT</h2>
+                            <h3>Pure Pineapple</h3>
+                            <p>$34.00</p>
+                        </div>
+                    </div>
+                    <div class="persCategory__clothes_card">
+                        <div class="persCategory__clothes_card_img">
+                            <img src="https://preview.colorlib.com/theme/fashi/img/products/women-4.jpg" alt="">
+                        </div>
+                        <div class="persCategory__clothes_card_tittle">
+                            <h2>COAT</h2>
+                            <h3>Concerse Shoese</h3>
+                            <p>$14.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="deal">
+            <div class="deal__tittle">
+                <h2>Deal Of The Week</h2>
+                <div class="deal__tittle__header"></div>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                <p>$35.00 <span> / HanBag</span></p>
+                <div class="deal__tittle__cards">
+                    <div class="deal__tittle__cards_box">
+                        <h2>29</h2>
+                        <p>DAYS</p>
+                    </div>
+                    <div class="deal__tittle__cards_box">
+                        <h2>15</h2>
+                        <p>HRS</p>
+                    </div>
+                    <div class="deal__tittle__cards_box">
+                        <h2>41</h2>
+                        <p>MINS</p>
+                    </div>
+                    <div class="deal__tittle__cards_box">
+                        <h2>15</h2>
+                        <p>SECS</p>
+                    </div>
+                </div>
+                <a href="#">SHOP NOW</a>
+            </div>
+        </section>
+
+
+        <section class="persCategory">
+            <div class="persCategory__clothes">
+                <div class="persCategory__clothes_views">
+                    <ul class="persCategory__clothes_views_ul">
+                        <li class="persCategory__clothes_views_ul_activ_li">Clothings</li>
+                        <li>HandBag</li>
+                        <li>Shoes</li>
+                        <li>Accessories</li>
+                    </ul>
+                </div>
+                <div class="persCategory__clothes_cards">
+                    <div class="persCategory__clothes_card">
+                        <div class="persCategory__clothes_card_img">
+                            <img src="https://preview.colorlib.com/theme/fashi/img/products/man-3.jpg" alt="">
+                        </div>
+                        <div class="persCategory__clothes_card_tittle">
+                            <h2>SHOES</h2>
+                            <h3>Guangzhou sweater</h3>
+                            <p>$13.00</p>
+                        </div>
+                    </div>
+                    <div class="persCategory__clothes_card">
+                        <div class="persCategory__clothes_card_img">
+                            <img src="https://preview.colorlib.com/theme/fashi/img/products/man-2.jpg.webp" alt="">
+                        </div>
+                        <div class="persCategory__clothes_card_tittle">
+                            <h2>SHOES</h2>
+                            <h3>Converse Shoes</h3>
+                            <p>$13.00</p>
+                        </div>
+                    </div>
+                    <div class="persCategory__clothes_card">
+                        <div class="persCategory__clothes_card_img">
+                            <img src="https://preview.colorlib.com/theme/fashi/img/products/man-4.jpg" alt="">
+                        </div>
+                        <div class="persCategory__clothes_card_tittle">
+                            <h2>SHOES</h2>
+                            <h3>Pure Pineapple</h3>
+                            <p>$13.00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="persCategory_img man">
+                <h2>Men's</h2>
+                <p>Discover More</p>
+            </div>
+        </section>
+
+        <section class="img_flexs">
+            <div class="img_flexs__cards">
+                <img src="https://preview.colorlib.com/theme/fashi/img/insta-1.jpg.webp" alt="">
+            </div>
+            <div class="img_flexs__cards">
+                <img src="https://preview.colorlib.com/theme/fashi/img/insta-2.jpg.webp" alt="">
+            </div>
+            <div class="img_flexs__cards">
+                <img src="https://preview.colorlib.com/theme/fashi/img/insta-3.jpg.webp" alt="">
+            </div>
+            <div class="img_flexs__cards">
+                <img src="https://preview.colorlib.com/theme/fashi/img/insta-4.jpg.webp" alt="">
+            </div>
+            <div class="img_flexs__cards">
+                <img src="https://preview.colorlib.com/theme/fashi/img/insta-5.jpg.webp" alt="">
+            </div>
+            <div class="img_flexs__cards">
+                <img src="https://preview.colorlib.com/theme/fashi/img/insta-6.jpg.webp" alt="">
+            </div>
+        </section>
+
+        <section class="blog">
+            <h2>From The Blog</h2>
+            <div class="blog__cards">
+                <div class="blog__cards_box">
+                    <div class="blog__cards_box__img">
+                        <img src="https://preview.colorlib.com/theme/fashi/img/latest-1.jpg.webp" alt="">
+                    </div>
+                    <div class="blog__cards_box__tittle">
+                        <div class="blog__cards_box__tittle__icons">
+                            <div class="blog__cards_box__tittle__icons_box">
+                                <i class="fa-regular fa-calendar"></i>
+                                <p> May 4,2019</p>
+                            </div>
+                            <div class="blog__cards_box__tittle__icons_box">
+                                <i class="fa-regular fa-comment"></i>
+                                <p>5</p>
+                            </div>
+                        </div>
+                        <div class="blog__cards_box__tittle_text">
+                            <h4>The Best Street Style From London Fashion Week</h4>
+                            <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog__cards_box">
+                    <div class="blog__cards_box__img">
+                        <img src="https://preview.colorlib.com/theme/fashi/img/latest-2.jpg" alt="">
+                    </div>
+                    <div class="blog__cards_box__tittle">
+                        <div class="blog__cards_box__tittle__icons">
+                            <div class="blog__cards_box__tittle__icons_box">
+                                <i class="fa-regular fa-calendar"></i>
+                                <p> May 4,2019</p>
+                            </div>
+                            <div class="blog__cards_box__tittle__icons_box">
+                                <i class="fa-regular fa-comment"></i>
+                                <p>5</p>
+                            </div>
+                        </div>
+                        <div class="blog__cards_box__tittle_text">
+                            <h4>Vogue's Ultimate Guide To Autumn/Winter 2019 Shoes</h4>
+                            <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog__cards_box">
+                    <div class="blog__cards_box__img">
+                        <img src="https://preview.colorlib.com/theme/fashi/img/latest-3.jpg" alt="">
+                    </div>
+                    <div class="blog__cards_box__tittle">
+                        <div class="blog__cards_box__tittle__icons">
+                            <div class="blog__cards_box__tittle__icons_box">
+                                <i class="fa-regular fa-calendar"></i>
+                                <p> May 4,2019</p>
+                            </div>
+                            <div class="blog__cards_box__tittle__icons_box">
+                                <i class="fa-regular fa-comment"></i>
+                                <p>5</p>
+                            </div>
+                        </div>
+                        <div class="blog__cards_box__tittle_text">
+                            <h4>How To Brighten Your Wardrobe With A Dash</h4>
+                            <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="delivery">
+            <div class="delivery__card">
+                <div class="delivery__card__img">
+                    <img src="https://preview.colorlib.com/theme/fashi/img/icon-1.png.webp" alt="">
+                </div>
+                <div class="delivery__card__tittle">
+                    <h2>FREE SHIPPING</h2>
+                    <p>For all order over 99$</p>
+                </div>
+            </div>
+            <div class="delivery__card">
+                <div class="delivery__card__img">
+                    <img src="https://preview.colorlib.com/theme/fashi/img/icon-2.png.webp" alt="">
+                </div>
+                <div class="delivery__card__tittle">
+                    <h2>Delivery On Time</h2>
+                    <p>If good have prolems</p>
+                </div>
+            </div>
+            <div class="delivery__card">
+                <div class="delivery__card__img">
+                    <img src="https://preview.colorlib.com/theme/fashi/img/icon-1.png.webp" alt="">
+                </div>
+                <div class="delivery__card__tittle">
+                    <h2>Secure Payment</h2>
+                    <p>100% secure payment</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="logos">
+            <div class="partner__logo">
+                <div class="partner__logo_box">
+                    <div class="partner__logo_box_img">
+                        <img src="https://preview.colorlib.com/theme/fashi/img/logo-carousel/logo-1.png.webp" alt="">
+                    </div>
+                    <div class="partner__logo_box_img">
+                        <img src="https://preview.colorlib.com/theme/fashi/img/logo-carousel/logo-2.png.webp" alt="">
+                    </div>
+                    <div class="partner__logo_box_img">
+                        <img src="https://preview.colorlib.com/theme/fashi/img/logo-carousel/logo-3.png.webp" alt="">
+                    </div>
+                    <div class="partner__logo_box_img">
+                        <img src="https://preview.colorlib.com/theme/fashi/img/logo-carousel/logo-4.png.webp" alt="">
+                    </div>
+                    <div class="partner__logo_box_img">
+                        <img src="https://preview.colorlib.com/theme/fashi/img/logo-carousel/logo-5.png.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+
+        <div class="footer__description">
+            <div class="footer__description__box">
+                <div class="footer__description__box_loc">
+                    <img src="https://preview.colorlib.com/theme/fashi/img/footer-logo.png.webp" alt="">
+                    <ul>
+                        <li>Address: 60-49 Road 11378 New York</li>
+                        <li>Phone: +65 11.188.888</li>
+                        <li>Email: hello.colorlib@gmail.com</li>
+                    </ul>
+                    <div class="footer__description__box_loc__sm">
+                        <div class="footer__description__box_loc__sm_card">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                        <div class="footer__description__box_loc__sm_card">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div class="footer__description__box_loc__sm_card">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="footer__description__box_loc__sm_card">
+                            <i class="fa-brands fa-pinterest"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__description__box_info">
+                    <h6>Information</h6>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Checkout</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Serivius</a></li>
+                    </ul>
+                </div>
+                <div class="footer__description__box_acc">
+                    <h6>My Account</h6>
+                    <ul>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Shopping Cart</a></li>
+                        <li><a href="#">Shop</a></li>
+                    </ul>
+                </div>
+                <div class="footer__description__box_email">
+                    <h6>Join Our Newsletter Now</h6>
+                    <ul>
+                        <li>Get E-mail updates about our latest shop and special offers.</li>
+                    </ul>
+                    <div class="footer__description__box_email__btn">
+                        <input type="emial" placeholder="Enter Your Mail">
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>

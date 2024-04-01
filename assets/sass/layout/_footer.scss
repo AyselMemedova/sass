@@ -1,0 +1,85 @@
+@import "../layout/grid";
+@import "../utils/variables";
+
+
+
+.footer__description{
+    background-color:#191919;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    &__box{
+        max-width: 1170px;
+        margin-left: auto;
+        margin-right: auto;
+        @extend flex_alig_start;
+        &_loc{
+            width: 390px;
+            li{
+                width: 262px;
+            }
+            &__sm{
+                @extend flex_h_start;
+                margin-top: 25px;
+                gap: 8px;
+                &_card{
+                    width: 40px;
+                    height: 40px;
+                    border-radius:50%;
+                    background-color: #434445;
+                    @extend flex;
+                    color: white;
+                }
+            }
+        }
+        &_info{
+            width: 195px;
+            li{
+                height: 36px;
+            }
+        }
+        &_acc{
+            width: 195px;
+            li{
+                height: 36px;
+            }
+        }
+        &_email{
+            width: 390px;
+            &__btn{
+                width: 360px;
+                height: 46px;
+                margin-top: 15px;
+                background-color:#303030;
+                @extend flex_h_start_sp_b;
+                input{
+                    background:none;
+                    border: none;
+                    padding-left: 20px;
+                    padding-top: 13px;
+                }
+                button{
+                   padding: 13px 20px 12px;
+                   height: 46px;
+                    color: white;
+                    background-color:$orange;
+                    border:none;
+                }
+            }
+        }
+        h6{
+            color: #ffffff;
+            font-weight: 700;
+            margin-bottom: 26px;
+            font-size: 18px;
+        }
+        ul{
+            margin-top: 25px;
+        }
+        li,a{
+            list-style: none;
+            color: #b2b2b2;
+            font-size: 16px;
+            line-height: 30px;
+        }
+    }
+}
